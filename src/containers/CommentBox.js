@@ -14,6 +14,10 @@ class CommentBox extends Component {
         { id: 2,
           author: "Dr. Suess",
           text: "Don't cry because it's over, smile because it happened."
+        },
+        { id: 3,
+          author: "The Dude",
+          text: "That's just like your opinion man."
         }
       ]
     }
