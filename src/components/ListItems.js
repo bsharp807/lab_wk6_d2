@@ -3,9 +3,14 @@ import PropTypes from 'prop-types';
 
 const ListItem = (props) => {
   return (
-    <li className='list-item'>
-      <h4>{props.author}</h4>
-      <p>{props.text}</p>
+    <li className='list-item comment'>
+      <a className='avatar'>
+        <img src='https://imgur.com/I80W1Q0.png'/>
+      </a>
+      <div className='content'>
+        <a className='author'>{props.author}</a>
+        <div className='text'>{props.text}</div>
+      </div>
     </li>
   )
 }
